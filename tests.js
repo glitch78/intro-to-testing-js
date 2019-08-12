@@ -13,3 +13,45 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+/*
+
+describe ("sum", function() {
+    it('should be a defined function', function () {
+        expect(typeof sum).toBe("function");
+    })
+});
+
+it("should return the number 4 when passed the numbers 2 and 2", function () {
+    expect(sum(2, 2)).toBe(4);
+});
+
+
+ */
+
+
+describe ("multiply", function() {
+    it('should be a defined function', function () {
+        expect(typeof multiply).toBe("function");
+    })
+});
+
+it ("Should return the number 12 when passed 3 and 4", function () {
+    expect(multiply(3, 4).toBe(12));
+});
+
+
+
+describe("divide", function () {
+    it('should be a defined function', function () {
+        expect(typeof divide).toBe("function");
+    })
+});
+
+it ("should return the 3 when passed the numbers 12 and 4", function () {
+    expect(divide(12, 4).toBe(3));
+});
+
+describe('test', function () {
+
+})
