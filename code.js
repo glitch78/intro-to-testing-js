@@ -24,5 +24,6 @@ function f() {
 }
 
 function test() {
-    return "testing 1";
+    return "Hello, Test";
 }
+

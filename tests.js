@@ -42,6 +42,9 @@ it ("Should return the number 12 when passed 3 and 4", function () {
 
 
 
+
+//having trouble with the it should return  on line 54.
+
 describe("divide", function () {
     it('should be a defined function', function () {
         expect(typeof divide).toBe("function");
@@ -52,6 +55,19 @@ it ("should return the 3 when passed the numbers 12 and 4", function () {
     expect(divide(12, 4).toBe(3));
 });
 
-describe('test', function () {
 
-})
+// having trouble with the  it should return on line 64.
+describe('test', function() {
+    it('should be a defined function', function() {
+        expect(typeof test).toBe('function');
+    });
+    it('should return a string when called', function() {
+        expect(typeof test()).toBe("string");
+    });
+    it('should return the string "Hello, Test!" when executed', function() {
+        expect(helloWorld()).toBe("Hello, Test!");
+    });
+    it("should never return 'undefined' when called", function() {
+        expect(test()).not.toBe(undefined);
+    });
+});
